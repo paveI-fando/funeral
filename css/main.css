@@ -21,3 +21,16 @@ img.discolored:hover {
 .white-hovered:hover {
     color: white!important;
 }
+
+#carousel-cars {
+    position: relative;
+}
+
+#carousel-cars > .carousel-inner {
+    max-height: 1400px;
+}
+
+#carousel-cars > .carousel-inner > .carousel-item > img {
+    height: auto;
+    width: auto;
+}
